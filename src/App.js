@@ -18,7 +18,7 @@ function App() {
   async function fetchNotes() {
     const apiData = await API.graphql({ query: listTodos });
     setNotes(apiData.data.listTodos.items);
-  }
+  } 
 
   async function createTodo() {
     if (!formData.name || !formData.description) return;
