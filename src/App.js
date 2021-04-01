@@ -33,7 +33,7 @@ function App() {
     await API.graphql({ query: deleteTodoMutation, variables: { input: { id } }});
   }
 
-  return (
+  return ( 
     <div className="App">
       <h1>My Notes App</h1>
       <input
