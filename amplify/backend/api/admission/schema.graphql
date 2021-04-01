@@ -1,0 +1,9 @@
+type Todo @model {
+  id: ID!
+  name: String!
+  IdentificationNumber: String
+  SeatNumber: String
+  ContactNumber: String
+  Attendance: String
+  Timedmitted: String
+}
